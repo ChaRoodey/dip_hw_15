@@ -1,7 +1,7 @@
 from datetime import datetime as dt
 
 
-def current_datetime():
+def current_datetime() -> str:
 
     curr_time = dt.now()
     week_number = curr_time.isocalendar()[1]
